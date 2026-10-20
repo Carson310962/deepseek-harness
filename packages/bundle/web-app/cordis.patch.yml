@@ -332,6 +332,11 @@
     - id: ui-chat
       name: '@deepseek-ai/dsh-client-ui-chat'
 
+    # Select assistant output to open a small side chat over a fork of the
+    # current Session; closing it archives the independent child.
+    - id: ui-selection-chat
+      name: '@deepseek-ai/dsh-client-ui-selection-chat'
+
     # Official occupants for the generic sidebar and conversation brand slots.
     - id: ui-brand-official
       name: '@deepseek-ai/dsh-client-ui-brand-official'

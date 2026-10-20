@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Selection chat",
+    "description": "Select text in the output to open a small window that inherits the current context."
+  }
+}

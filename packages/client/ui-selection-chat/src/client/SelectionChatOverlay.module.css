@@ -1,0 +1,119 @@
+.action {
+  position: fixed;
+  z-index: 60;
+  pointer-events: auto;
+  border: 0;
+  background: var(--dsw-alias-bg-layer-2);
+  color: var(--dsw-alias-label-primary);
+  box-shadow: var(--dsw-elevation-panel);
+  border-radius: var(--dsw-radius-panel);
+  white-space: nowrap;
+}
+
+.dialog {
+  position: fixed;
+  z-index: 60;
+  display: flex;
+  flex-direction: column;
+  max-height: min(60vh, 560px);
+  overflow: hidden;
+  border: 0;
+  border-radius: var(--dsw-radius-panel);
+  background: var(--dsw-alias-bg-layer-2);
+  color: var(--dsw-alias-label-primary);
+  box-shadow: var(--dsw-elevation-prominent);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px 8px 8px 12px;
+  border-bottom: 0.5px solid var(--dsw-alias-border-l2);
+}
+
+.title {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--dsw-alias-label-primary);
+}
+
+.editor {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+  min-height: 0;
+}
+
+.quoteLabel {
+  font-size: 11px;
+  color: var(--dsw-alias-label-tertiary);
+}
+
+.quoteText {
+  max-height: 96px;
+  overflow: auto;
+  padding: 8px 10px;
+  border-radius: var(--dsw-radius-md);
+  background: var(--dsw-alias-bg-layer-1);
+  color: var(--dsw-alias-label-secondary);
+  font-size: 12px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  resize: none;
+  padding: 8px 10px;
+  border: 0.5px solid var(--dsw-alias-border-l2);
+  border-radius: var(--dsw-radius-md);
+  background: var(--dsw-alias-bg-layer-1);
+  color: var(--dsw-alias-label-primary);
+  font: inherit;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.input:focus-visible {
+  outline: 2px solid var(--dsw-alias-brand-primary);
+  outline-offset: 1px;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.starting {
+  padding: 28px 16px;
+  color: var(--dsw-alias-label-secondary);
+  font-size: 13px;
+  text-align: center;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  flex: 1;
+}
+
+.error {
+  padding: 8px 12px;
+  color: var(--dsw-alias-state-warn-label);
+  font-size: 12px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.errorActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  padding-top: 6px;
+}

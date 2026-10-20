@@ -1,0 +1,46 @@
+# Bilingual-pair consistency record for README.md (docs/i18n/README.md): per heading
+# section, a hash of its English and Chinese blocks outside code blocks and generated regions.
+# After editing either side, bring the other along and re-record with:
+#   pnpm run verify-translation-pairing --write packages/client/ui-selection-chat/README.md
+/:
+  en: 3280628be9d3de8c
+  zh: f827cae6293659a0
+/deepseek-ai-dsh-client-ui-selection-chat:
+  en: e090506eff43a3b8
+  zh: 2a0ee0fbaac23eba
+/deepseek-ai-dsh-client-ui-selection-chat/summary:
+  en: 1aa06265ba948907
+  zh: c696362261e27679
+/deepseek-ai-dsh-client-ui-selection-chat/table-of-contents:
+  en: d152484eb41ac6b4
+  zh: 4b3ace932b8a7661
+/deepseek-ai-dsh-client-ui-selection-chat/use-this-package:
+  en: dc3bbd804874eb6c
+  zh: 7b8b6b32910032ec
+/deepseek-ai-dsh-client-ui-selection-chat/understand-the-implementation:
+  en: b7466baa8e8ebb77
+  zh: f1f32e6d5d7a339c
+/deepseek-ai-dsh-client-ui-selection-chat/further-exploration:
+  en: 0a149590d535e413
+  zh: 2efac89794d6f5e8
+/deepseek-ai-dsh-client-ui-selection-chat/model-experience:
+  en: 215e7ba838619b7b
+  zh: a311da3843709f90
+/deepseek-ai-dsh-client-ui-selection-chat/model-experience/selection-side-chat-prompt:
+  en: 623bf11aaed9847c
+  zh: 779159fd4e11f410
+/deepseek-ai-dsh-client-ui-selection-chat/model-experience/selection-side-chat-prompt/what-the-model-sees:
+  en: 3d3a4ec1c83dc5ef
+  zh: 2a0d8025b876d688
+/deepseek-ai-dsh-client-ui-selection-chat/model-experience/selection-side-chat-prompt/token-effect:
+  en: bdc9232a992ef100
+  zh: 2e55a973cbfa12ed
+/deepseek-ai-dsh-client-ui-selection-chat/model-experience/selection-side-chat-prompt/kv-cache-effect:
+  en: 65b076623a084faa
+  zh: 6b5b3761fc3d86bd
+/deepseek-ai-dsh-client-ui-selection-chat/known-limitations-and-deferred-work:
+  en: 348598cb48d82dbb
+  zh: 39d852f4086a9a0b
+/deepseek-ai-dsh-client-ui-selection-chat/known-limitations-and-deferred-work/dev-note:
+  en: e67f633dc6fe7773
+  zh: 6acef3b2d1929a55
